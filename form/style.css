@@ -1,0 +1,77 @@
+/*
+*****************
+RESET
+*****************
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+*****************
+BODY
+*****************
+*/
+
+body {
+    background-color: #55423d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+*****************
+HEDAER
+*****************
+*/
+
+header {
+    text-align: center;
+    padding: 40px;
+    color: #fffffe;
+    font-size: 40px;
+}
+
+/*
+*****************
+FORM
+*****************
+*/
+
+main {
+    padding-left: 30px;
+    color: #fff3ec;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#text {
+    margin-top: 50px;
+}
+
+#text,
+.bad-word input {
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#submit {
+    all: unset;
+    border: 1px solid grey;
+    background-color: #ffc0ad;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: #271c19;
+}
